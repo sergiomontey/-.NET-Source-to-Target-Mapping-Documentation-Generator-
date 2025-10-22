@@ -84,20 +84,20 @@ Or simply open the solution in **Visual Studio** and press **F5**.
 ```mermaid
 graph TD
     subgraph "UI Layer (View)"
-        A[MainPage (XAML)]
-        B[Mapping Form]
-        C[DataGrid/CollectionView]
+        A["MainPage (XAML)"]
+        B["Mapping Form"]
+        C["DataGrid / CollectionView"]
     end
 
     subgraph "Logic Layer (ViewModel)"
-        D[MainViewModel]
-        E[Commands: Add, Delete, Save, Load, Export]
+        D["MainViewModel"]
+        E["Commands: Add, Delete, Save, Load, Export"]
     end
 
     subgraph "Data/Service Layer"
-        F[MappingEntry (Model)]
-        G[JsonFileService (Persistence)]
-        H[ExcelExportService (ClosedXML)]
+        F["MappingEntry (Model)"]
+        G["JsonFileService (Persistence)"]
+        H["ExcelExportService (ClosedXML)"]
     end
 
     A --> D
@@ -108,8 +108,6 @@ graph TD
     C --> D
     E --> G
     E --> H
-
-```
 
 ---
 
