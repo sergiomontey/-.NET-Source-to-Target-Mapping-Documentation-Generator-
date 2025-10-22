@@ -2,7 +2,6 @@
 ![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-CrossPlatform-purple.svg)
 ![C#](https://img.shields.io/badge/C%23-10%2B-512BD4.svg)
 ![MVVM](https://img.shields.io/badge/Architecture-MVVM-green.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/Status-In_Development-yellow.svg)
 
 > **A professional desktop application for ETL consultants** - Eliminate hours of manual Excel work by providing an intuitive GUI for documenting complex data mappings.
